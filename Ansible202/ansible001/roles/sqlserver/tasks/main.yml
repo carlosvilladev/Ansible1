@@ -1,0 +1,11 @@
+---
+# tasks file for sqlserver
+- name: Update apt cache.
+  apt: update_cache=yes cache_valid_time=86400
+  changed_when: false
+
+- name: Instalación de Mysql
+  apt: name=mysql-server-5.7 state=installed
+
+- name: Start Mysql
+  service: name=mysql state=started enabled=yes

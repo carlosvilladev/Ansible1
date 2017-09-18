@@ -1,0 +1,8 @@
+[web]
+server_task_01 ansible_port=2221 ansible_ssh_private_key_file=../key.private
+
+[sql]
+server_task_02 ansible_port=2222 ansible_ssh_private_key_file=../key.private
+
+[nosql]
+server_task_03 ansible_port=2223 ansible_ssh_private_key_file=../key.private
