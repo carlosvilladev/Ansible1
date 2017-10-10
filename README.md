@@ -8,7 +8,7 @@ Configuración de 3 máquinas Docker (Apache, Mysql, Redis)
 
 ### Recrear Dockers y Adicionar llaves SSH
 
-- ./crean_all.sh
+- ./clean_all.sh
 
 
 ### Playbooks
